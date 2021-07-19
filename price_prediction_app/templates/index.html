@@ -1,0 +1,57 @@
+{% block head %}
+
+    <title>Price Prediction APP</title>
+    <style type="text/css">
+     h1.head {text-align: center}
+     </style>
+
+{% endblock %}
+
+
+{% block body %}
+<div class="content" style="background-color: orange; color=blue; padding:15px;">
+    <h1 class = 'head'> Price Prediction APP </h1>
+</div>
+
+<div class="form">
+    <form action="/predict" method="POST">
+    <br> <br> <br> <b>
+
+        <label>Name: &nbsp;</label> <input id="name" name="name" type="textarea">
+        <br> <br> <br>
+    <label>Item Condition Id: &nbsp;</label> <select id ="item_condition_id" name="item_condition_id">
+        <option value="Select"> Select </option>
+        <option value="1"> 1 </option>
+        <option value="2"> 2 </option>
+        <option value="3"> 3 </option>
+        <option value="4"> 4 </option>
+        <option value="5"> 5 </option>
+    </select>
+        <br> <br> <br>
+
+    <label>Category: &nbsp; </label> <input id="category_name" name="category_name" type="text">
+
+        <br> <br> <br>
+
+    <label>Brand Name: &nbsp; </label> <input id="brand_name" name="brand_name" type="text">
+
+        <br> <br> <br>
+    <label>Shippingd: &nbsp;</label> <select id ="shipping" name="shipping">
+        <option value="Select"> Select </option>
+        <option value= 0> shipping fee is paid by seller </option>
+        <option value= 1> shipping fee is paid by buyer </option>
+
+    </select>
+        <br> <br> <br>
+    <label>Item Description: &nbsp; </label> <input id="item_description" name="item_description" type="textarea">
+        <br> <br> <br>
+    <input value="Predict" type="submit">
+        <br> <br> <br> <b>
+        <b> <label> Predicted Price (Name of the product : Price): </label>{{result}} </b>
+</form>
+
+
+</div>
+
+
+{% endblock %}
