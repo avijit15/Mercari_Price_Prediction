@@ -4,11 +4,18 @@ Product pricing gets is a tricky task which gets harder at scale, considering ju
 
 # Bird's eye view of project :
 
-Data Information
-ML Problem Formulation
-Existing Approaches and My Approaches
-EDA
-Data Cleaning and Preprocessing
-Feature Engineering Attempts
-Preparing Train & Test Data
-Training & Testing ML and DL Models
+- Data Information
+
+- ML Problem Formulation
+
+- Existing Approaches and My Approaches
+
+- EDA
+
+- Data Cleaning and Preprocessing
+
+- Feature Engineering Attempts
+
+- Preparing Train & Test Data
+
+- Training & Testing ML and DL Models
