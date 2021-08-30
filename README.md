@@ -19,3 +19,9 @@ Product pricing gets is a tricky task which gets harder at scale, considering ju
 - Preparing Train & Test Data
 
 - Training & Testing ML and DL Models
+
+
+# Medium Link:
+Here I am sharing the meduim link where I have tried to share a step by step approach for this case study.
+https://medium.com/@pyne.avijit15/suggesting-products-actual-prices-to-online-sellers-a-machine-learning-case-study-747bbfd12ee2
+
